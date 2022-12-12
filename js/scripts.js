@@ -45,18 +45,17 @@ for (let i = 15; i <=35; numberTask4 = i * ++i){
 
 
 //Task 5
+
 console.group(`Знайти середнє арифметичне всіх цілих чисел від 1 до 500.`)
 
 let averageArithmetic = 0;
 let numberTask5 = 500;
-let sum5= 0;
 
-for (let i = 1; i<=500; averageArithmetic += i){
+for (let i = 1; i<500; averageArithmetic += i){
     i++
-    sum5 = averageArithmetic / numberTask5
 }
 
-console.log(sum5)
+console.log(averageArithmetic / numberTask5)
 console.groupEnd()
 
 // Task 6
