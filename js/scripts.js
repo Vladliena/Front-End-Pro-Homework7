@@ -37,11 +37,14 @@ for (let j = 1; j <= 10; j++) {
 
 //Task 4
 
+console.group(`Знайти добуток усіх цілих чисел від 15 до 35.`)
+
 let multiplication = 1;
 for(let i=15; i<=35;i++){
     multiplication = multiplication * i;
 }
 console.log(multiplication)
+console.groupEnd()
 
 
 //Task 5
