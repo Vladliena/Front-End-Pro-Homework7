@@ -37,11 +37,11 @@ for (let j = 1; j <= 10; j++) {
 
 //Task 4
 
-let numberTask4 = 1;
-
-for (let i = 15; i <=35; numberTask4 = i * ++i){
-    console.log(numberTask4)
+let multiplication = 1;
+for(let i=15; i<=35;i++){
+    multiplication = multiplication * i;
 }
+console.log(multiplication)
 
 
 //Task 5
